@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <title>Cafe Store</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+      <section id="header">
+        <a href="#"><img src="cofeedrilogo.png" class="cofeedrilogo" alt=""></a>
+
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li id="lg-bag"><a href="cart.html"><i class="fal fa-shopping-cart"></i></a></li>
+                <a href="#" id="close"><i class="far fa-times"></i></a>
+            </ul>
+        </div>
+        <div id="mobile">
+            <a href="cart.html"><i class="fal fa-shopping-cart"></i></a>
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+      </section>
+
+    <section id="hero">
+        <h4>Buy a Cofee</h4>
+        <h2>Super value offers</h2>
+        <h1>On all snacks</h1>
+        <p>Save more and buy one free</p>
+        <button>Shop Online</button>
+    </section> 
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="delivery-truck.png" alt="">
+            <h6>Free Delivery</h6>
+        </div>
+        <div class="fe-box">
+            <img src="online-order12.png" alt="">
+            <h6>Online Order</h6>
+        </div>
+        <div class="fe-box">
+            <img src="money-box.png" alt="">
+            <h6>Save Money</h6>
+        </div>
+        <div class="fe-box">
+            <img src="gift.png" alt="">
+            <h6>Happy Offers</h6>
+        </div>
+        <div class="fe-box">
+            <img src="24-hours.png" alt="">
+            <h6>F 24/7 Support</h6>
+        </div>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h3>Available New Snackes</h3>
+        <h3>Gluten Free Foods For Health</h3>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="buckwheat.jpeg" alt="">
+                <div class="des">
+                    <span>gluten-free</span>
+                    <h5>Buckwheat</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$10</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images.jpg" alt="">
+                <div class="des">
+                    <span>gluten-free</span>
+                    <h5>quinoa</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$15</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Polenta-with-mushrooms-12.jpg" alt="">
+                <div class="des">
+                    <span>gluten-free</span>
+                    <h5>polenta</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$14</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="c176fa81dc0a0bc467aa9854f40ccad3.jpg" alt="">
+                <div class="des">
+                    <span>gluten-free</span>
+                    <h5>Fresh fish</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$35</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="marmalde.jpg" alt="">
+                <div class="des">
+                    <span>gluten-free</span>
+                    <h5>Orange Marmalade</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$15</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="2022.10.30-Creamy-Ravioli-Sauce-4439.jpg" alt="">
+                <div class="des">
+                    <span>gluten-free</span>
+                    <h5>crème fraîche</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$20</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="rice-recipes.jpg" alt="">
+                <div class="des">
+                    <span>gluten-free</span>
+                    <h5>rice recipes</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$25</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="shakshuka.jpg" alt="">
+                <div class="des">
+                    <span>gluten-free</span>
+                    <h5>Shakshuka-Egg dish</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$30</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h3>Food Offers</h3>
+        <h2>Up to <span>50% Off</span> Above $20</h2>
+        <button class="normal">Explore More</button>
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h3>Vegan Foods</h3>
+        <p>Vegan Foods For Health Mind</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="Vegetarian-Lentil-Bolognese-Recipe-10.jpg" alt="">
+                <div class="des">
+                    <span>vegan-free</span>
+                    <h5>Lentil Bolognese </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$10</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Frankies! (aka Bombay Burritos).jpg" alt="">
+                <div class="des">
+                    <span>vegan-free</span>
+                    <h5>Bombay Burrito</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$15</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="crispy-sesame-tempeh-15.jpg" alt="">
+                <div class="des">
+                    <span>vegan-free</span>
+                    <h5>Crispy Sesame Tempeh</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$14</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Instant-Pot-Butternut-Risotto_-15.jpg" alt="">
+                <div class="des">
+                    <span>vegan-free</span>
+                    <h5>Butternut Squash Risotto with Leeks and Spinach</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$35</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Lentil-Meatballs-recipe.jpg" alt="">
+                <div class="des">
+                    <span>vegan-free</span>
+                    <h5>lentil meatballs</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$15</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="1000_F_485836870_jdnQBzgnhxHHSgL6qYvezQprbh6VWl26.jpg" alt="">
+                <div class="des">
+                    <span>vegan-free</span>
+                    <h5>Miso Tofu Wrap</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$20</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="images (4).jpg" alt="">
+                <div class="des">
+                    <span>vegan-free</span>
+                    <h5>Veggie Lo Mein</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$25</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+            <div class="pro">
+                <img src="Get-Ready-for-Tlayuda-Hero.png" alt="">
+                <div class="des">
+                    <span>vegan-free</span>
+                    <h5>Tlayudas </h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$30</h4>
+                </div>
+                <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner1">
+        <div class="banner-box">
+            <h2>Different Coffee Sales</h2>
+            <h3>Halowen Special-20%OFF</h3>
+        </div>
+        <div class="banner-box banner-box2">
+            <h2>Different Snacks Sales</h2>
+            <h3>Offer Special-40%OFF</h3>
+        </div>
+        <div class="banner-box  banner-box3">
+            <h2>Mojitos and Milkshakes Sales</h2>
+            <h3>Buy-1 Get-1 Free</h3>
+        </div>
+    </section>
+
+    <section id="newsletter" class="section-p1 section-m1">
+        <div class="newstext">
+            <h3>NewsLetter Signup to get info</h3>
+            <h4>Get E-mail about our latest shop</h4>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Your email address">
+            <button class="normal">Sign Up</button>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="cofeedrilogo.png" alt="">
+            <h3>Contact</h3>
+            <h3><strong>Address:</strong> 562 Los Angles, New York</h3>
+            <h3><strong>Phone:</strong> +01.2345 452 / (+91) 99 8386 3860</h3>
+            <h3><strong>Hours:</strong> 9.00 - 9.00, Mon-Fri,Sun</h3>
+            <div class="follow">
+                <h3>Follow us</h3>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h3>About</h3>
+            <a href="#">About us</a>
+            <a href="#">Delivery Information</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="#">Contact us</a>
+        </div>
+
+        <div class="col">
+            <h3>My Account</h3>
+            <a href="#">Sign In</a>
+            <a href="#">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="col install">
+            <h3>Install App</h3>
+            <h3>From App Store or Google Play</h3>
+            <div class="row">
+                <img src="apple-app-store-logo (1).jpg" alt="">
+                <img src="en_badge_web_generic.jpg" alt="">
+            </div>
+            <h3>Secured Payment Gateways</h3>
+            <img src="sfwfwf.jpg" alt="">
+        </div>
+        <div class="copyright">
+            <h3>@ 2022, Cafin coffee etc - HTML CSS Ecommerce Template</h3>
+        </div>
+    </footer>
+
+   <script src="script.js"></script>
+</body>
+</html>
